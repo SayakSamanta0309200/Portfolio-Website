@@ -1,0 +1,262 @@
+body{
+    color: #305255;
+    margin: 0;
+    text-align: center;
+    background-color: #c4eef0;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #173235;
+    
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    margin-bottom: 40px;
+    color: #173235;
+    font-weight: normal;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #173235;
+}
+
+p{
+    line-height: 2;
+    color: black;
+}
+
+hr{
+    border: transparent #ffffff 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+a{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px 10px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+}
+.top-cloud{
+    margin: 8px auto 0 500px;
+
+}
+
+.top-container{
+    background-color: #c4eef0;
+    
+}
+
+.bottom-cloud{
+    position: absolute;
+    margin-right: 400px;
+}
+
+.mountain{
+    margin-top: 5px;
+}
+
+.middle-container{
+    margin: 100px 0;
+}
+.bottom-container{
+   background-color: #3e4ea8;
+   padding: 50px 0 20px;
+   margin-top: 20px;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 80px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-one{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-two{
+    width: 25%;
+    float: right;
+    margin-right: 30px;
+}
+
+.projects{
+    padding: 0 20px;
+}
+.project.row{
+    width: 50%;
+    margin: 80px auto;
+    text-align: left;
+    line-height: 2;
+    padding: 0 20px;
+}
+
+.project-one{
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+
+.p1-h3{
+    text-align: left;
+}
+.p1{
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+.project-two{
+    width: 20%;
+    float: right;
+    margin-right: 30px;
+    padding-left: 50px;
+}
+
+.p2-h3{
+    text-align: right;
+}
+.p2{
+    text-align: right;
+    max-lines: 5;
+    padding-bottom: 50px;
+}
+
+.project-three{
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+
+.p3-h3 {
+    text-align: left;
+}
+
+.p3 {
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+.project-four {
+    width: 20%;
+    float: right;
+    margin-right: 30px;
+    padding-left: 50px;
+}
+
+.p4-h3{
+    text-align: right;
+}
+
+.p4{
+    text-align: right;
+    max-lines: 5;
+    padding-bottom: 50px;
+}
+
+.project-five{
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+
+.p5-h3{
+    text-align: left;
+}
+
+.p5{
+    text-align: left;
+    padding-bottom: 50px;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+    color: black;
+}
+
+.contact-message{
+    width: 40%;
+    margin: 40px auto 60px;
+    color: black;
+}
+
+.copyright{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.hello{
+    padding-top: 20px;
+}
+
+.navbar{
+    padding: 0 0 5px;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 1.5rem;
+    padding-left: 50px;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Ubuntu";
+}
+
+.resume{
+    padding-top: 0px;
+}
